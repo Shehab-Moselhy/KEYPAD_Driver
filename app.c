@@ -14,23 +14,6 @@
 #include "../include/HAL/LCD/LCD_Interface.h"
 #include "../include/HAL/KEP/KEP_Interface.h"
 
-//#define KPD_NO_PRESSED_KEY   0xff
-//int main()
-//{
-//	MDIO_voidInit();
-//	HLCD_voidInit();
-//	u8 key;
-//	while(1)
-//	{
-//
-//		do {
-//			key =KPD_u8GetPressdKey();
-//
-//		} while (key == KPD_NO_PRESSED_KEY);
-//			HLCD_voidSendData(key);
-//
-//	}
-//}
 
 #define KPD_NO_PREASSED 255
 
